@@ -220,7 +220,7 @@
  */
 
 /mob/proc/neck_lick(mob/partner)
-	var/message
+	var/message = "seductively licks [partner] on the neck."
 	var/lust_increase = NORMAL_LUST
 	if(partner.is_fucking(src, NECK_LICK)) // Aids Code for Request Discord 
 		if(prob(partner.sexual_potency))
