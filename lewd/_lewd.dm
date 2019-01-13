@@ -143,8 +143,8 @@
 			if(NECK_LICK)
 				message = "passionately licks \the [partner] in great pleasure."
 		
-		else
-			message = "cums on the floor!"
+			else
+				message = "cums on the floor!"
 
 		lust = 5
 		lust_tolerance += 50
