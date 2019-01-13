@@ -301,7 +301,7 @@
 	partner.dir = get_dir(partner,src)
 	do_fucking_animation(get_dir(src, partner))
 
-/mob/proc/thigh_smother(mob/partner)
+/mob/proc/thigh_smother(mob/partner) // text not purple
 
 	var/message
 	var/lust_increase = 1
