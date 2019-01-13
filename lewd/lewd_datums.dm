@@ -302,6 +302,6 @@
 	write_log_target = "was made to have their neck licked"
 	
 /datum/interaction/lewd/neck/display_interaction(var/mob/user, var/mob/target)
-	user.neck_lick(targert)
+	user.neck_lick(target)
 
 
