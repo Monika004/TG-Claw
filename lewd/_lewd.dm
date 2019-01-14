@@ -229,7 +229,15 @@
 	if(partner.is_fucking(src, FOOT_JOB))
 		if(prob(partner.sexual_potency))
 			var/mob/living/carbon/human/h = src
+				lust_increase += 5
 
+		else
+			if(partner.has_vagina())
+				message = "licks \the [partner]'s pussy."
+			else if(partner.has_penis())
+				message = "sucks \the [partner] off."
+
+		partner.set_is_fucking(src, FOOT_JOB)
 
 /mob/proc/neck_lick(mob/partner)
 	var/message = "seductively licks [partner] on the neck."
