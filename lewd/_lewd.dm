@@ -12,6 +12,7 @@
 #define NECK_LICK "neck_lick"
 #define FOOT_JOB "foot_job"
 
+
 #define NORMAL_LUST 10
 #define LOW_LUST 1
 
@@ -143,6 +144,9 @@
 					message = "reaches their peak, locking their legs around \the [partner]'s head extra hard as they cum straight onto the head stuck between their thighs"
 			if(NECK_LICK)
 				message = "passionately licks \the [partner] in great pleasure."
+			
+			if(FOOT_JOB)
+				message =
 		
 			else
 				message = "cums on the floor!"
@@ -219,6 +223,13 @@
   ---------------LEWD PROCESS DATUM-----------------
   --------------------------------------------------
  */
+/mod/proc/foot_job(mob/partner)
+	var/message =
+	var/lust_increase = NORMAL_LUST
+	if(partner.is_fucking(src, FOOT_JOB))
+		if(prob(partner.sexual_potency))
+			var/mob/living/carbon/human/h = src
+
 
 /mob/proc/neck_lick(mob/partner)
 	var/message = "seductively licks [partner] on the neck."
