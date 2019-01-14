@@ -243,8 +243,8 @@
 	var/lust_increase = NORMAL_LUST
 	if(partner.is_fucking(src, NECK_LICK)) // Aids Code for Request Discord 
 		if(prob(partner.sexual_potency))
-			var/mob/living/carbon/human/h = src
-		message = "seductively licks [partner] on the neck."
+			var/mob/living/carbon/human/= src
+			message = "seductively licks [partner] on the neck."
 	
 	
 	
