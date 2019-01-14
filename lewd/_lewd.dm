@@ -10,6 +10,7 @@
 #define THIGH_SMOTHERING "thigh_smother"
 #define NUTS_TO_FACE "nut_face"
 #define NECK_LICK "neck_lick"
+#define FOOT_JOB "foot_job"
 
 #define NORMAL_LUST 10
 #define LOW_LUST 1
