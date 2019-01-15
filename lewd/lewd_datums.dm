@@ -304,20 +304,3 @@
 /datum/interaction/lewd/neck/display_interaction(var/mob/user, var/mob/target)
 	user.neck_lick(target)
 
-
-/datum/interaction/lewd/thighs
-
-	command = "foot_job"
-	description = "Wank Them with your foot."
-	max_distance = 0
-	require_user_naked = TRUE
-	require_target_naked = TRUE
-	require_target_penis = TRUE
-	interaction_sound = null
-	user_not_tired = TRUE
-	write_log_user = "Foot Raped"
-	write_log_target = "Foot Raped by"
-
-
-/datum/interaction/lewd/thighs/display_interaction(var/mob/user, var/mob/target) 
-    user.foot_job(target)
