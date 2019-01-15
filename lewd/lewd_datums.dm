@@ -311,7 +311,8 @@
 	description = "Wank Them with your foot."
 	max_distance = 0
 	require_user_naked = TRUE
-	require_target_mouth = TRUE
+	require_target_naked = TRUE
+	require_target_penis = TRUE
 	interaction_sound = null
 	user_not_tired = TRUE
 	write_log_user = "Foot Raped"
