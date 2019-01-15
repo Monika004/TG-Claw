@@ -231,7 +231,7 @@
 			var/mob/living/carbon/human/h = src
 				lust_increase += 5
 
-				else
+					else
 						if(partner.has_vagina())
 						message = "licks \the [partner]'s pussy."
 						else if(partner.has_penis())
