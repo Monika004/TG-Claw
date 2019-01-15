@@ -229,9 +229,8 @@
 	if(partner.is_fucking(src, FOOT_JOB))
 		if(prob(partner.sexual_potency))
 		if(istype(src, /mob/living/carbon/human))
-			
-				message = "pushes [partner] down to the floor and gets down the floor with them. their  feet over to their erection, grinning while doing so, then rubs their foot against their hard cock, while they moan softly and roll their eyes back.begins to rub in faster strokes with their feet while [partner] is barely able to contain themselves. strokes their feet back and forth a few more times on their cock before [partner]'s throbbing cock ejaculates all over their feet."
-				partner.set_is_fucking(src, FOOT_JOB)
+			message = "pushes [partner] down to the floor and gets down the floor with them. their  feet over to their erection, grinning while doing so, then rubs their foot against their hard cock, while they moan softly and roll their eyes back.begins to rub in faster strokes with their feet while [partner] is barely able to contain themselves. strokes their feet back and forth a few more times on their cock before [partner]'s throbbing cock ejaculates all over their feet."
+			partner.set_is_fucking(src, FOOT_JOB)
 				
 				
 	playsound(get_turf(src), "honk/sound/interactions/bj[rand(1, 11)].ogg", 50, 1, -1)
