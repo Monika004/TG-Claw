@@ -305,7 +305,7 @@
 	user.neck_lick(target)
 
 
-/datum/interaction/lewd/thighs
+/datum/interaction/lewd/foot
 
 	command = "foot_job"
 	description = "Wank Them with your foot."
@@ -319,5 +319,5 @@
 	write_log_target = "Foot Raped by"
 
 
-/datum/interaction/lewd/thighs/display_interaction(var/mob/user, var/mob/target) 
+/datum/interaction/lewd/foot/display_interaction(var/mob/user, var/mob/target) 
     user.foot_job(target)
