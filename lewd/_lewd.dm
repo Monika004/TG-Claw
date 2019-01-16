@@ -224,7 +224,7 @@
   --------------------------------------------------
  */
 /mob/proc/foot_job(mob/partner)
-	var/message = "pushes [partner] down to the floor and gets down the floor with them. their  feet over to their erection, grinning while doing so, then rubs their foot against their hard cock, while they moan softly and roll their eyes back.begins to rub in faster strokes with their feet while [partner] is barely able to contain themselves. strokes their feet back and forth a few more times on their cock before [partner]'s throbbing cock ejaculates all over their feet."
+	var/message = "pushes [partner] down to the floor and gets down the floor with them. their  feet over to their erection, grinning while doing so, then rubs their foot against their hard cock, while they moan softly and roll their eyes back.begins to rub in faster strokes with their feet while [partner] is barely able to contain themselves. strokes their feet back and forth a few more times on their cock."
 	var/lust_increase = NORMAL_LUST
 	if(partner.is_fucking(src, FOOT_JOB))
 		if(prob(partner.sexual_potency))
